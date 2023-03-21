@@ -2,21 +2,22 @@
 {
     
     width: 570px;
-    
     display: grid;
     grid-template-columns: 280px 1fr;
     column-gap: 30px;
     background-color: white;
     border-radius: 15px;
-  
+    margin-top: 60px;
 }
 
 
 body
 {
     background-color: hsl(30, 38%, 92%);
-    display:grid;
-    place-items:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .image
